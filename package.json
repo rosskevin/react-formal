@@ -29,7 +29,6 @@
     "defaultDryRun": "false"
   },
   "scripts": {
-    "af-publish": "npm version patch && npm run build && npm publish && rm -rf build",
     "test": "karma start --single-run",
     "tdd": "karma start",
     "lint": "eslint src",
@@ -37,7 +36,7 @@
     "docs:watch": "webpack-dev-server --config webpack/docs.config.js",
     "dev:watch": "webpack-dev-server --config webpack/dev.config.js",
     "build": "npm run test && babel src --out-dir lib && lessc src/less/styles.less lib/css/react-formal.css",
-    "release": "release"
+    "release": "npm version patch && npm publish"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.3.0"
