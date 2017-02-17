@@ -1,6 +1,6 @@
 {
   "name": "@alienfast/react-formal",
-  "version": "0.24.4",
+  "version": "0.24.5",
   "description": "Classy HTML form management for React",
   "main": "lib/index.js",
   "author": {
