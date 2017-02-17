@@ -1,5 +1,5 @@
 {
-  "name": "react-formal",
+  "name": "@alienfast/react-formal",
   "version": "0.24.3",
   "description": "Classy HTML form management for React",
   "main": "lib/index.js",
@@ -29,6 +29,7 @@
     "defaultDryRun": "false"
   },
   "scripts": {
+    "af-publish": "npm version patch && npm run build && npm publish && rm -rf build",
     "test": "karma start --single-run",
     "tdd": "karma start",
     "lint": "eslint src",
