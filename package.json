@@ -1,5 +1,5 @@
 {
-  "name": "react-formal",
+  "name": "@alienfast/react-formal",
   "version": "0.25.0",
   "description": "Classy HTML form management for React",
   "main": "lib/index.js",
@@ -36,6 +36,7 @@
     "defaultDryRun": "false"
   },
   "scripts": {
+    "af-publish": "npm version patch && npm run build && npm publish",
     "test": "jest",
     "tdd": "jest --watch",
     "lint": "eslint src",
