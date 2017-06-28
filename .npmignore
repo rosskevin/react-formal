@@ -1,0 +1,11 @@
+vendor
+docs
+test
+.idea
+.gitattributes
+.gitignore
+.jshintrc
+.travis.yml
+favicon.ico
+test-setup.js
+node_modules
